@@ -7,10 +7,10 @@
 int main(void) {
 
 	// variables
-	int length = 0;
-	int width = 0;
-	int area = 0;
-	int divisionlw = 0; // This is the integer variable that holds the result of leght / width
+	int length = 1;
+	int width = 1;
+	int area = 1;
+	int divisionlw = 1; // This is the integer variable that holds the result of leght / width
 
 	printf("Enter length: \n");
 	scanf("%d", &length); // length input
@@ -21,10 +21,11 @@ int main(void) {
 	//printf("Width: %d", Width); Used for testing
 
 	area = width * length; // area computation
-	printf("Area: %d", area); // area output
+	printf("Area: %d\n", area); // area output
 
 	divisionlw = length / width; // division computation
-
+	printf("Division result is %s\n ", divisionlw); 
+	
 	return 0;
 
 } // end function main
